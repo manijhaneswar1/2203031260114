@@ -213,274 +213,212 @@ const styles = {
   container: {
     minHeight: '100vh',
     background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    padding: '10px',
+    padding: '20px',
     fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-    '@media (min-width: 768px)': {
-      padding: '20px'
-    }
   },
   card: {
-    maxWidth: '800px',
+    maxWidth: '850px',
     margin: '0 auto',
-    background: 'white',
-    borderRadius: '20px',
-    padding: '20px',
-    boxShadow: '0 25px 50px rgba(0,0,0,0.15)',
-    marginTop: '20px',
-    '@media (min-width: 768px)': {
-      padding: '40px',
-      marginTop: '40px'
-    }
+    background: '#ffffff',
+    borderRadius: '18px',
+    padding: '30px',
+    boxShadow: '0 20px 60px rgba(0,0,0,0.2)',
   },
   header: {
     textAlign: 'center',
-    marginBottom: '24px'
+    marginBottom: '32px',
   },
   title: {
-    fontSize: '2rem',
-    fontWeight: '700',
+    fontSize: '2.5rem',
+    fontWeight: '800',
     color: '#2d3748',
-    margin: '0 0 8px 0',
-    '@media (min-width: 768px)': {
-      fontSize: '2.5rem'
-    }
+    marginBottom: '8px',
   },
   subtitle: {
     color: '#718096',
-    fontSize: '1rem',
-    margin: '0',
-    '@media (min-width: 768px)': {
-      fontSize: '1.1rem'
-    }
+    fontSize: '1.1rem',
   },
   statsBar: {
     display: 'flex',
     justifyContent: 'center',
-    gap: '32px',
+    gap: '40px',
     marginBottom: '24px',
-    padding: '16px',
-    background: 'linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%)',
-    borderRadius: '12px'
+    padding: '20px',
+    background: '#f1f5f9',
+    borderRadius: '12px',
   },
   stat: {
-    textAlign: 'center'
+    textAlign: 'center',
   },
   statNumber: {
     display: 'block',
-    fontSize: '1.8rem',
+    fontSize: '2rem',
     fontWeight: '700',
-    color: '#667eea'
+    color: '#667eea',
   },
   statLabel: {
-    fontSize: '0.9rem',
-    color: '#718096'
+    fontSize: '0.95rem',
+    color: '#718096',
   },
   inputSection: {
-    marginBottom: '24px'
+    marginBottom: '30px',
   },
   mainInput: {
     display: 'flex',
-    gap: '8px',
-    marginBottom: '12px'
+    gap: '10px',
+    marginBottom: '14px',
   },
   input: {
     flex: '1',
-    padding: '16px 20px',
+    padding: '18px 24px',
     border: '2px solid #e2e8f0',
-    borderRadius: '12px',
+    borderRadius: '14px',
     fontSize: '1rem',
     outline: 'none',
-    transition: 'all 0.2s ease'
+    transition: 'all 0.2s ease',
+    boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.06)',
   },
   customButton: {
-    padding: '16px',
+    padding: '18px',
     background: '#f7fafc',
     border: '2px solid #e2e8f0',
-    borderRadius: '12px',
+    borderRadius: '14px',
     cursor: 'pointer',
-    fontSize: '1rem'
+    fontSize: '1.1rem',
+    transition: 'background 0.2s ease',
   },
   customInput: {
     width: '100%',
-    padding: '12px 16px',
+    padding: '16px 20px',
     border: '2px solid #e2e8f0',
-    borderRadius: '8px',
-    fontSize: '0.9rem',
+    borderRadius: '10px',
+    fontSize: '1rem',
     marginBottom: '12px',
-    outline: 'none'
+    outline: 'none',
   },
   button: {
     width: '100%',
     padding: '16px 32px',
-    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+    background: 'linear-gradient(135deg, #4f46e5 0%, #6b21a8 100%)',
     color: 'white',
     border: 'none',
-    borderRadius: '12px',
-    fontSize: '1rem',
+    borderRadius: '14px',
+    fontSize: '1.1rem',
     fontWeight: '600',
     cursor: 'pointer',
-    transition: 'all 0.2s ease',
-    '@media (min-width: 768px)': {
-      width: 'auto'
-    }
+    boxShadow: '0 5px 15px rgba(0,0,0,0.2)',
+    transition: 'transform 0.2s ease',
   },
   buttonDisabled: {
     opacity: '0.6',
-    cursor: 'not-allowed'
+    cursor: 'not-allowed',
   },
   copyNotification: {
-    background: '#48bb78',
+    background: '#38a169',
     color: 'white',
     padding: '12px',
-    borderRadius: '8px',
+    borderRadius: '10px',
     textAlign: 'center',
-    marginBottom: '16px',
-    fontWeight: '500'
+    marginBottom: '18px',
+    fontWeight: '500',
   },
   resultsSection: {
     borderTop: '1px solid #e2e8f0',
-    paddingTop: '24px'
+    paddingTop: '30px',
   },
   controlsBar: {
-    marginBottom: '16px'
+    marginBottom: '20px',
   },
   resultsTitle: {
-    fontSize: '1.3rem',
+    fontSize: '1.5rem',
     color: '#2d3748',
     marginBottom: '16px',
-    fontWeight: '600'
+    fontWeight: '700',
   },
   controls: {
     display: 'flex',
-    gap: '8px',
     flexDirection: 'column',
-    '@media (min-width: 768px)': {
-      flexDirection: 'row'
-    }
+    gap: '10px',
   },
   searchInput: {
     flex: '1',
-    padding: '8px 12px',
+    padding: '10px 16px',
     border: '1px solid #e2e8f0',
-    borderRadius: '8px',
-    fontSize: '0.9rem'
+    borderRadius: '10px',
+    fontSize: '1rem',
   },
   sortSelect: {
-    padding: '8px 12px',
+    padding: '10px 16px',
     border: '1px solid #e2e8f0',
-    borderRadius: '8px',
-    fontSize: '0.9rem',
-    background: 'white'
+    borderRadius: '10px',
+    fontSize: '1rem',
+    background: 'white',
   },
   actionButtons: {
     display: 'flex',
-    gap: '8px',
-    marginBottom: '16px',
-    flexWrap: 'wrap'
+    gap: '12px',
+    marginBottom: '20px',
+    flexWrap: 'wrap',
   },
   actionButton: {
-    padding: '8px 16px',
+    padding: '10px 18px',
     background: '#4299e1',
     color: 'white',
     border: 'none',
-    borderRadius: '6px',
-    fontSize: '0.9rem',
-    cursor: 'pointer'
+    borderRadius: '8px',
+    fontSize: '1rem',
+    fontWeight: '600',
+    cursor: 'pointer',
   },
   actionButtonDanger: {
-    padding: '8px 16px',
-    background: '#f56565',
+    padding: '10px 18px',
+    background: '#e53e3e',
     color: 'white',
     border: 'none',
-    borderRadius: '6px',
-    fontSize: '0.9rem',
-    cursor: 'pointer'
+    borderRadius: '8px',
+    fontSize: '1rem',
+    fontWeight: '600',
+    cursor: 'pointer',
   },
   urlsList: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '12px'
+    gap: '18px',
   },
   urlCard: {
-    padding: '16px',
+    padding: '20px',
     border: '1px solid #e2e8f0',
-    borderRadius: '12px',
-    background: '#f7fafc',
-    transition: 'all 0.2s ease'
+    borderRadius: '14px',
+    background: '#f9fafb',
+    boxShadow: '0 5px 15px rgba(0,0,0,0.05)',
+    transition: 'all 0.2s ease',
   },
   urlInfo: {
-    width: '100%'
-  },
-  shortUrlRow: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: '8px',
-    flexWrap: 'wrap',
-    gap: '8px'
-  },
-  shortUrl: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '8px',
-    fontSize: '1rem',
-    color: '#667eea',
-    flex: '1',
-    minWidth: '0'
-  },
-  customBadge: {
-    background: '#ed8936',
-    color: 'white',
-    padding: '2px 6px',
-    borderRadius: '4px',
-    fontSize: '0.7rem',
-    fontWeight: '500'
-  },
-  urlActions: {
-    display: 'flex',
-    gap: '4px'
-  },
-  iconButton: {
-    background: 'none',
-    border: 'none',
-    cursor: 'pointer',
-    fontSize: '1rem',
-    padding: '4px 8px',
-    borderRadius: '4px',
-    transition: 'background 0.2s ease'
-  },
-  iconButtonDanger: {
-    background: 'none',
-    border: 'none',
-    cursor: 'pointer',
-    fontSize: '1rem',
-    padding: '4px 8px',
-    borderRadius: '4px',
-    transition: 'background 0.2s ease'
+    width: '100%',
   },
   originalUrl: {
-    color: '#718096',
-    fontSize: '0.9rem',
-    marginBottom: '8px',
-    wordBreak: 'break-all'
+    color: '#4a5568',
+    fontSize: '1rem',
+    marginBottom: '10px',
+    wordBreak: 'break-word',
   },
   urlMeta: {
     color: '#a0aec0',
-    fontSize: '0.8rem'
+    fontSize: '0.9rem',
   },
   noResults: {
     textAlign: 'center',
     color: '#718096',
     padding: '20px',
-    fontStyle: 'italic'
+    fontStyle: 'italic',
   },
   emptyState: {
     textAlign: 'center',
     color: '#718096',
-    padding: '40px 20px'
+    padding: '50px 20px',
   },
   emptyIcon: {
-    fontSize: '3rem',
-    marginBottom: '16px'
-  }
+    fontSize: '3.5rem',
+    marginBottom: '18px',
+  },
 };
