@@ -35,4 +35,6 @@ Registration API response
 
 Authentication API response
 
-(Screenshots are attached as proof of successful execution in loggigMiddleWare folder)
+(Screenshots are attached as proof of successful execution in loggigMiddleWare folder)![Screenshot 2025-06-23 144855](https://github.com/user-attachments/assets/09b8f0fa-ba51-4459-9c2a-ddaba0de7602)
+![Screenshot 2025-06-23 144843](https://github.com/user-attachments/assets/bdb235d6-b598-4138-b2f6-8e521dce6183)
+
